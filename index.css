@@ -1,0 +1,124 @@
+.root {
+  width: 900px;
+  height: 1000px;
+  background-color: rgb(243, 243, 243);
+  font-size: 20px;
+  display: flex;
+  margin: 0 auto;
+}
+.left {
+  width: 30%;
+  height: 100%;
+  background-color: rgb(50, 48, 49);
+  color: white;
+  padding: 60px 0 0 30px;
+  box-sizing: border-box;
+}
+
+.label {
+  background-color: rgb(1, 173, 239);
+  font-size: 20px;
+  /* text-align: right; */
+  padding: 7px;
+  margin-bottom: 10px;
+}
+.labelWrapper {
+  margin: 20px 0 50px 0;
+}
+
+.labelText {
+  display: flex;
+  align-items: center;
+  margin: 12px 0 12px 15px;
+}
+.labelText img {
+  width: 20px;
+}
+.labelTextImage {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(1, 173, 239);
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.labelTextInfo {
+  margin-left: 15px;
+}
+
+.nameFoto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 40px auto;
+}
+.nameFoto img {
+  border-radius: 50%;
+  height: 150px;
+  margin-bottom: 30px;
+}
+.nameFoto div {
+  align-items: center;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-variant: small-caps;
+}
+.nameFoto .name {
+  font-size: 30px;
+}
+.nameFoto .prof {
+  color: rgb(40, 127, 161);
+  margin-top: 10px;
+}
+
+.right {
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  color: rgb(50, 48, 49);
+  padding: 60px 40px 0 40px;
+  box-sizing: border-box;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.post {
+  margin-bottom: 40px;
+}
+.headerRight {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.imageHeaderPost {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+}
+.headerRight img {
+  width: 30px;
+}
+.infoHeaderPost {
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  font-variant: small-caps;
+  border-bottom: 3px solid rgb(129, 124, 127);
+  padding: 7px 0;
+  margin-left: 20px;
+}
+.textPost {
+  margin-left: 70px;
+}
+.textPost ul {
+  padding-left: 20px;
+}
