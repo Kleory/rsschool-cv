@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="calculatorGrid">
+    <div class="output">
+      <input disabled type="text" id="display" name="" placeholder="0" class="calc-display-input" />
+      <input disabled type="text" id="total" name="" placeholder="" class="calc-display-total" />
+    </div>
+    <button class='target' data-type='calc' data-value='ac'>AC</button>
+    <button class='target' data-type='calc' data-value='del'>DEL</button>
+    <button class='target' data-type='calc' data-value='sq'>&radic;</button>
+    <button class='target' data-type='calc' data-value='+'><b>+</b></button>
+    <button class='target' data-type='num' data-value='1'>1</button>
+    <button class='target' data-type='num' data-value='2'>2</button>
+    <button class='target' data-type='num' data-value='3'>3</button>
+    <button class='target' data-type='calc' data-value='-'><b>&ndash;</b></button>
+    <button class='target' data-type='num' data-value='4'>4</button>
+    <button class='target' data-type='num' data-value='5'>5</button>
+    <button class='target' data-type='num' data-value='6'>6</button>
+    <button class='target' data-type='calc' data-value='*'>&#9913;</button>
+    <button class='target' data-type='num' data-value='7'>7</button>
+    <button class='target' data-type='num' data-value='8'>8</button>
+    <button class='target' data-type='num' data-value='9'>9</button>
+    <button class='target' data-type='calc' data-value='/'><b>&divide;</b></button>
+    <button class='target' data-type='point' data-value='.'>.</button>
+    <button class='target' data-type='num' data-value='0'>0</button>
+    <button class='target' data-type='op' data-value='+/-'><b>+</b>/<b>&ndash;</b></button>
+    <button class='target' data-type='calc' data-value='^'><span>x<sup>n</sup></span></button>
+    <button class='target end' data-type='calc' data-value='='><b>=</b></button>
+  </div>
+
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>

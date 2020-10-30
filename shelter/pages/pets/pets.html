@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="pets.css" />
+    <link rel="stylesheet" type="text/css" href="..\main\footer.css" />
+  </head>
+  <body>
+    <!-- ----------------------------Header start----------------------------------- -->
+    <header class="header-wrapper">
+      <link rel="stylesheet" type="text/css" href="../blocks/menu.css" />
+
+      <div class="header">
+        <a href="../main/main.html" class="logo">
+          <h1 class="logo-header">Cozy House</h1>
+          <div class="logo-description">Shelter for pets in Boston</div>
+        </a>
+
+        <nav class="menu">
+          <a href="../main/main.html"  class="menu-item">About the shelter</a>
+          <a class="menu-item isActive">Our pets</a>
+          <a class="m-item">Help the shelter</a>
+          <a class="m-item">Contacts</a>
+        </nav>
+
+        <div class="burger">
+          <img src="..\..\assets\images\burger.png" />
+        </div>
+      </div>
+    </header>
+
+    <header class="menu-mobile">
+      <div class="menu-mobileBackground"></div>
+      <div class="menu-mobileWrapper">
+        <a href="../main/main.html" class="menu-item ">About the shelter</a>
+        <a href="pets.html" class="menu-item isActive">Our pets</a>
+        <a class="menu-item m-item">Help the shelter</a>
+        <a class="menu-item m-item">Contacts</a>
+      </div>
+    </header>
+
+
+
+    <script src="../blocks/menu.js"></script>
+
+    <!-- ----------------------------Friends start----------------------------------- -->
+    <div class="friends">
+
+      <link rel="stylesheet" type="text/css" href="../blocks/popup.css" />
+      
+      <div class="friends-wrapper">
+        <div class="friends-header">
+          Our friends who <br />
+          are looking for a house
+        </div>
+
+        <div class="petsWrapper">
+          <section class="pets" ></section>          
+        </div>
+
+        <div class="friends-arrow">
+          <button type = "button" class="arrowButton firstPage disabled">&lt;&lt;</button>
+          <button type = "button" class="arrowButton prevPage disabled">&lt;</button>
+          <div class="currentPage">1</div>
+          <button type = "button" class="arrowButton nextPage">&gt;</button>
+          <button type = "button" class="arrowButton lastPage">&gt;&gt;</button>
+        </div>
+      </div>      
+    </div>
+
+    <div class="popupModal">
+      <div class="bgModal">        
+      </div>
+      <div class="cardModal">
+        <div class="modalButton">&#10006;</div>
+        <div class="cardModal-img">
+          
+        </div>
+        <div class="cardModal-content">
+          <div class="contentName"></div>
+          <div class="contentPet"></div>
+          <div class="contentText">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. 
+            This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if 
+            she has all of her favorite toys.</div>
+          <div class="contentInfo">
+            <ul>
+              <li>Age:<span class="ageLi">2 month</span></li>
+              <li class="inoculations">Inoculations:<span class="inoculationsLi">none</span></li>
+              <li>Diseases:<span class="diseasesLi">none</span></li>
+              <li>Parasites:<span class="parasitesId">none</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------Footer start----------------------------------- -->
+    <div class="footer">
+      <div class="footer-wrapper">
+        <div class="footer-contacts">
+          <div class="footer-header">For questions and suggestions</div>
+
+          <a href="mailto:email@shelter.com" class="footer-subHeader">
+            <img src="..\..\assets\icons\footer-mail.svg" />
+            <div>email@shelter.com</div>
+          </a>
+          <a href="tel:+136745677554" class="footer-subHeader">
+            <img src="..\..\assets\icons\footer-phone.svg" />
+            <div>+13 674 567 75 54</div>
+          </a>
+        </div>
+
+        <div class="footer-locations">
+          <div class="footer-header">We are waiting for your visit</div>
+          <a href="https://goo.gl/maps/QKB7iqii8DCEwtR9A" target="_blank" class="footer-subHeader">
+            <img src="..\..\assets\icons\footer-pin.svg" />
+            <div>
+              1 Central Street, Boston<br />
+              (entrance from the store)
+            </div>
+          </a>
+          <a href="https://goo.gl/maps/Z66bSp15R96rvKqj7" target="_blank" class="footer-subHeader">
+            <img src="..\..\assets\icons\footer-pin.svg" />
+            <div>18 South Park, London</div>
+          </a>
+        </div>
+
+        <div class="footer-pictures">
+          <img src="..\..\assets\images\footer-puppy.png" />
+        </div>
+      </div>
+    </div>
+    
+    <script src="../../assets/pets.js"></script>
+    <script src="../blocks/createArr48.js"></script>
+    <script src="../blocks/pagination.js"></script>
+    
+    <script src="../blocks/popup.js"></script>
+
+  </body>
+</html>
