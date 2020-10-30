@@ -20,7 +20,6 @@ body {
   background-position: center center;
   transition: background-image 1s ease-in-out;
   color: #ffffff;
-  background: url("./images/night/07.jpg");
 
   box-sizing: border-box;
   position: relative;
