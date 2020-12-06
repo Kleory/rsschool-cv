@@ -1,8 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 .root {
   width: 900px;
   height: 1000px;
   background-color: rgb(243, 243, 243);
-  font-size: 20px;
+  font-size: 1.25rem;
   display: flex;
   margin: 0 auto;
 }
@@ -12,13 +16,11 @@
   background-color: rgb(50, 48, 49);
   color: white;
   padding: 60px 0 0 30px;
-  box-sizing: border-box;
 }
 
 .label {
   background-color: rgb(1, 173, 239);
-  font-size: 20px;
-  /* text-align: right; */
+  font-size: 1.2rem;
   padding: 7px;
   margin-bottom: 10px;
 }
@@ -39,13 +41,13 @@
   height: 30px;
   background-color: rgb(1, 173, 239);
   border-radius: 50%;
-  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .labelTextInfo {
   margin-left: 15px;
+  font-size: 1.1rem;
 }
 
 .nameFoto {
@@ -66,11 +68,12 @@
   font-variant: small-caps;
 }
 .nameFoto .name {
-  font-size: 30px;
+  font-size: 1.8rem;
 }
 .nameFoto .prof {
   color: rgb(40, 127, 161);
   margin-top: 10px;
+  font-size: 1.2rem;
 }
 
 .right {
@@ -79,7 +82,6 @@
   background-color: white;
   color: rgb(50, 48, 49);
   padding: 60px 40px 0 40px;
-  box-sizing: border-box;
   font-family: Verdana, Tahoma, sans-serif;
 }
 
@@ -98,7 +100,6 @@
   height: 50px;
   border-radius: 50%;
   border: 2px solid black;
-  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,7 +111,7 @@
 .infoHeaderPost {
   width: 100%;
   height: 100%;
-  font-size: 24px;
+  font-size: 1.4rem;
   font-variant: small-caps;
   border-bottom: 3px solid rgb(129, 124, 127);
   padding: 7px 0;
@@ -118,6 +119,7 @@
 }
 .textPost {
   margin-left: 70px;
+  font-size: 1.1rem;
 }
 .textPost ul {
   padding-left: 20px;
