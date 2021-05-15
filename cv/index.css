@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 .root {
@@ -65,16 +66,16 @@
 }
 .nameFoto div {
   align-items: center;
-  font-family: Verdana, Tahoma, sans-serif;
+  /* font-family: Verdana, Tahoma, sans-serif; */
   font-variant: small-caps;
 }
 .nameFoto .name {
   font-size: 1.8rem;
 }
 .nameFoto .prof {
-  color: rgb(40, 127, 161);
+  color: rgb(1, 173, 239);
   margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding-right: 10px;
 }
 
@@ -198,10 +199,13 @@ li a:hover {
   }
 
   .root,
-  .label,
-  .nameFoto .prof,
   .labelTextInfo {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+  }
+
+  .nameFoto .prof,
+  .label {
+    font-size: 1rem;
   }
 
   .labelText {
@@ -220,7 +224,7 @@ li a:hover {
 
   .left {
     width: 100%;
-    padding: 20px 0 0 30px;
+    padding: 20px 30px 0 30px;
   }
 
   .nameFoto {
@@ -238,6 +242,12 @@ li a:hover {
   .labelText {
     display: block;
     margin-left: 15px;
+  }
+
+  .label {
+    background-color: rgba(50, 48, 49);
+    /* font-size: 1.1rem; */
+    border-bottom: solid 1px rgb(243, 243, 243);
   }
 
   .right {
